@@ -16,8 +16,7 @@ angular.module('starter.controllers', [])
       password :'',
       username:''
     };
-  $scope.login=function(){
-    
+  $scope.login=function(){    
     var un = $scope.user.username;
     var pwd = $scope.user.password;
 
